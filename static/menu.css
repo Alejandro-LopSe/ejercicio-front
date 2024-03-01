@@ -1,0 +1,42 @@
+@keyframes menu_animation {
+  from{
+    background-color: transparent;
+    color: #d6da0c;
+  }to{
+    background-color: #0641808e;
+    color: #3a8d03;
+  }
+}
+.menu {
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5%;
+  background-image: linear-gradient(to right,rgba(100, 77, 13, 0.842), rgba(162, 165, 5, 0.767));;
+  box-shadow: 0 8px 8px 0 rgb(0, 0, 0);
+  width: 6%;
+  height: 100%;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-style: outset;
+  border-color: rgba(210, 138, 30, 0.884);
+  
+  a {
+    color: #d6da0c;
+    text-decoration: dashed;
+    border-style: outset;
+    width: 100%;
+    padding-left: 10px;
+  }
+  
+
+  a:hover {
+    animation-name: menu_animation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    background-color: #064180af;
+    color: #d6da0c;
+  }
+}

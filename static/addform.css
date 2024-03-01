@@ -1,0 +1,44 @@
+.AddForm{
+    width: 100%;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: outset;
+    background-image: linear-gradient(to left,rgba(100, 77, 13, 0.432), rgba(162, 165, 5, 0.466));;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.747);
+    border-radius: 5px;
+    border-color: rgb(255, 153, 0);
+
+
+  input{
+    width: 100%;
+    margin-bottom: 20px;
+    color: slategray;
+    padding: 10px;
+    border: 1px solid #3a022e;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  button{
+    background-color: #007bff;
+    width: 100%;
+    padding: 10px;
+    border-style: outset;
+    border-radius: 15%;
+    border-color:rgb(255, 187, 0);
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+  button:hover{
+    background-color: #0056b3;
+  }
+}
